@@ -1,0 +1,48 @@
+body {
+	background: url(../images/background/bg-2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+span {
+	padding: 10px;
+}
+
+.thumb > img {
+	max-height: 225px;
+	cursor: pointer;
+}
+
+.thumb:hover {
+	border: 1px solid #BDBDBD;
+}
+
+#home {
+	margin-left: 100px;
+}
+
+label {
+	font-weight: bold;
+	padding: 5px;
+}
+
+.panel-body {
+	margin: 10px;
+}
+
+.highlight {
+	background-color: #FFF59D;
+}
+
+#home, #cart, #logIn, #logOut, #register {
+    cursor: pointer;
+}
+
+#sign, #log {
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
